@@ -8,7 +8,7 @@ It is assumed that native APIs are network-accessible via one or more communicat
 
 [.text-center]
 .Assumed Architecture
-image::{diagrams_uri}/assumed_model.svg[id=assumed_model, align="center"]
+image::diagrams/assumed_model.svg[id=assumed_model, align="center"]
 
 == openEHR Platform Model
 

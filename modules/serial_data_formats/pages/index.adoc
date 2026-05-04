@@ -1,0 +1,60 @@
+//
+// ============================================ Asciidoc HEADER =============================================
+//
+
+//
+// ============================================ Asciidoc PREAMBLE =============================================
+//
+
+
+= {spec_title}
+
+
+//
+// ============================================= Asciidoc BODY ===============================================
+//
+
+//
+// --------------------------------------------- Preface -----------------------------------------------
+//
+
+== Acknowledgements
+
+=== Authors
+
+* Pieter Bos, Software Engineer, Nedap, Netherlands
+* Diego Boscá, IBIME, Technical University Valencia, VeraTech for Health, Spain
+* Borut Fabjan, Program Manager, Better, Slovenia
+* Sebastian Iancu, Architect, Code24, Netherlands
+* Bostjan Lah, CTO, Better, Slovenia
+* Ian McNicoll MD, MSc, FreshEhr, UK
+* Matija Polajnar, Architect, Better, Slovenia
+
+=== Original IP
+
+A significant part of the content of this specification was adapted from the Better (Marand) 'Web Templates' specification, kindly provided by Marand d.o.o. (Slovenia) and the EtherCIS JSON flat format description.
+
+=== Trademarks
+
+* 'openEHR' is a registered trademark of the openEHR Foundation
+
+//
+// --------------------------------------------- TOC -----------------------------------------------
+//
+//toc::[left]
+
+//
+// --------------------------------------------- CHAPTERS -----------------------------------------------
+//
+
+
+
+//
+// --------------------------------------------- REFERENCES -----------------------------------------------
+//
+
+
+// :sectnums!:
+//== References
+//
+//bibliography::[]

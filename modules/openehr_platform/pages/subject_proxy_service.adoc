@@ -8,7 +8,7 @@ The following diagram shows conceptually the population of subject proxy variabl
 
 [.text-center]
 .Typical Subject Proxy situation
-image::{diagrams_uri}/spo_conceptual.svg[id=spo_conceptual, align="center"]
+image::diagrams/spo_conceptual.svg[id=spo_conceptual, align="center"]
 
 Subject variables may be conveniently used by any application and are relied upon by openEHR Task Plans and Decision Logic Modules, for which the conceptual purpose and typical use are described in the {openehr_proc_overview}#_subject_proxy_service[openEHR Process and Planning Overview^].
 
@@ -143,7 +143,7 @@ The following example illustrates a typical run-time situation for the use of th
 
 [.text-center]
 .Typical Subject Proxy situation
-image::{diagrams_uri}/spo_context.svg[id=spo_context, align="center"]
+image::diagrams/spo_context.svg[id=spo_context, align="center"]
 
 === Specifying a Data-set
 
