@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Definition Package
 
 == Overview
@@ -6,7 +8,7 @@ The `platform.interface.definitions` package shown below defines service interfa
 
 [.text-center]
 .`sm.platform.interface.definitions` package
-image::{uml_diagrams_uri}/SM-platform.interface.definitions.svg[id=sm_platform_interface_definitions, align="center"]
+image::ROOT:uml/SM-platform.interface.definitions.svg[id=sm_platform_interface_definitions, align="center"]
 
 The interfaces provided in this service are designed to enable any model-like or reference artefacts, other than terminology, to be stored for use by the rest of the system. This includes archetypes, templates, queries, and query sets.
 
@@ -50,13 +52,13 @@ Accordingly, the following values for the `_type_` parameter are all equivalent:
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/i_definition_adl2.adoc[]
+include::ROOT:partial$classes/i_definition_adl2.adoc[]
 
-include::{uml_export_dir}/classes/i_definition_adl14.adoc[]
+include::ROOT:partial$classes/i_definition_adl14.adoc[]
 
-include::{uml_export_dir}/classes/i_definition_query.adoc[]
+include::ROOT:partial$classes/i_definition_query.adoc[]
 
-include::{uml_export_dir}/classes/definition_call_status_type.adoc[]
+include::ROOT:partial$classes/definition_call_status_type.adoc[]
 
-include::{uml_export_dir}/classes/query_descriptor.adoc[]
+include::ROOT:partial$classes/query_descriptor.adoc[]
 

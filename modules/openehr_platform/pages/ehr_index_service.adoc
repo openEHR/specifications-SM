@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = EHR Index Service
 
 == Overview
@@ -6,7 +8,7 @@ The `platform.interface.ehr_index` package shown below defines service interface
 
 [.text-center]
 .`sm.platform.interface.ehr_index` package
-image::{uml_diagrams_uri}/SM-platform.interface.ehr_index.svg[id=platform_interface_ehr_index, align="center"]
+image::ROOT:uml/SM-platform.interface.ehr_index.svg[id=platform_interface_ehr_index, align="center"]
 
 The primary function of the EHR Index service is to enable the recording of associations of subject identifiers (i.e. patient or other subject or care identifiers) with EHR identifiers. In a privacy-supporting environment, this enables EHRs to be persisted with only an EHR id; the EHR Index has to be used to obtain the subject identifier, which will usually be used as a key into a demographic or MPI service, ultimately allowing EHR data to be associated with the correct patient demographic information in a user application.
 
@@ -21,10 +23,10 @@ A further useful facility that can be provided by this service is to maintain dy
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/i_ehr_index.adoc[]
+include::ROOT:partial$classes/i_ehr_index.adoc[]
 
-include::{uml_export_dir}/classes/resource_status.adoc[]
+include::ROOT:partial$classes/resource_status.adoc[]
 
-include::{uml_export_dir}/classes/resource_instance_type.adoc[]
+include::ROOT:partial$classes/resource_instance_type.adoc[]
 
-include::{uml_export_dir}/classes/location_desc.adoc[]
+include::ROOT:partial$classes/location_desc.adoc[]

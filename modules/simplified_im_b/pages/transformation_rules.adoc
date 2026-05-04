@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Transformation Rules
 
 This section contains rules defining the formal relationship between the SIM-B and the openEHR RM and other models on which it is based.

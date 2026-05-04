@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Overview
 
 == General Assumptions
@@ -16,7 +18,7 @@ The following figure illustrates the components of the abstract openEHR Platform
 
 [.text-center]
 .sm.platform.definition Package
-image::{uml_diagrams_uri}/SM-platform.definition.svg[id=platform_definition, align="center"]
+image::ROOT:uml/SM-platform.definition.svg[id=platform_definition, align="center"]
 
 Each component has one or more associated interfaces, i.e. abstract service definitions which define a _transactional interface_ to the service represented by the component. Each interface consists of a number of _calls_, and each call is defined in an abstract way, i.e. independent of the representations and expressions required by a concrete protocol.
 
@@ -176,4 +178,4 @@ The openEHR Platform Service Model package structure is illustrated below. It co
 
 [.text-center]
 .sm.platform Package Overview
-image::{uml_diagrams_uri}/SM-platform-packages.svg[id=platform_packages, align="center"]
+image::ROOT:uml/SM-platform-packages.svg[id=platform_packages, align="center"]

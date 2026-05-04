@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = SIM-B Data types Package
 
 == Overview
@@ -6,7 +8,7 @@ The following UML diagram shows the SIM `rm.data_types` package defining `S_XXX`
 
 [.text-center]
 .`sm.simplified_im_b.rm.data_types` package
-image::{uml_diagrams_uri}/SM-simplified_im_b.rm.data_types.svg[id=sm_simplified_im_b_rm_data_types, align="center"]
+image::ROOT:uml/SM-simplified_im_b.rm.data_types.svg[id=sm_simplified_im_b_rm_data_types, align="center"]
 
 == Serial Formats
 
@@ -226,17 +228,17 @@ The following shows the SDT serial formats for an `S_DV_PARSABLE` instance:
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/s_data_value.adoc[]
-include::{uml_export_dir}/classes/s_dv_identifier.adoc[]
+include::ROOT:partial$classes/s_data_value.adoc[]
+include::ROOT:partial$classes/s_dv_identifier.adoc[]
 
-include::{uml_export_dir}/classes/s_dv_text.adoc[]
-include::{uml_export_dir}/classes/s_dv_coded_text.adoc[]
-include::{uml_export_dir}/classes/s_code_phrase.adoc[]
+include::ROOT:partial$classes/s_dv_text.adoc[]
+include::ROOT:partial$classes/s_dv_coded_text.adoc[]
+include::ROOT:partial$classes/s_code_phrase.adoc[]
 
-include::{uml_export_dir}/classes/s_dv_parsable.adoc[]
+include::ROOT:partial$classes/s_dv_parsable.adoc[]
 
-include::{uml_export_dir}/classes/s_dv_quantity.adoc[]
-include::{uml_export_dir}/classes/s_dv_count.adoc[]
-include::{uml_export_dir}/classes/s_dv_proportion.adoc[]
-include::{uml_export_dir}/classes/s_dv_ordinal.adoc[]
+include::ROOT:partial$classes/s_dv_quantity.adoc[]
+include::ROOT:partial$classes/s_dv_count.adoc[]
+include::ROOT:partial$classes/s_dv_proportion.adoc[]
+include::ROOT:partial$classes/s_dv_ordinal.adoc[]
 

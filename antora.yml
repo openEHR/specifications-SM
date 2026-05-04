@@ -1,0 +1,8 @@
+name: SM
+title: Service Model
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+  - modules/openehr_platform/nav.adoc
+  - modules/simplified_im_b/nav.adoc
+  - modules/serial_data_formats/nav.adoc

@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Common Package
 
 == Overview
@@ -10,7 +12,7 @@ The `platform.common` package shown below defines common elements of the platfor
 
 [.text-center]
 .`sm.platform.common` package
-image::{uml_diagrams_uri}/SM-platform.common.svg[id=sm_platform_common, align="center"]
+image::ROOT:uml/SM-platform.common.svg[id=sm_platform_common, align="center"]
 
 == Representing Call Status
 
@@ -30,14 +32,14 @@ For each storable top-level type such as `COMPOSITION`, `FOLDER`, `PARTY` descen
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/i_status.adoc[]
+include::ROOT:partial$classes/i_status.adoc[]
 
-include::{uml_export_dir}/classes/call_status.adoc[]
+include::ROOT:partial$classes/call_status.adoc[]
 
-include::{uml_export_dir}/classes/call_status_type.adoc[]
+include::ROOT:partial$classes/call_status_type.adoc[]
 
-include::{uml_export_dir}/classes/update_version.adoc[]
+include::ROOT:partial$classes/update_version.adoc[]
 
-include::{uml_export_dir}/classes/update_audit.adoc[]
+include::ROOT:partial$classes/update_audit.adoc[]
 
-include::{uml_export_dir}/classes/i_validity_checker.adoc[]
+include::ROOT:partial$classes/i_validity_checker.adoc[]

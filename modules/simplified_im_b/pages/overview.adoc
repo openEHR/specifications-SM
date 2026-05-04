@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Overview
 
 The Simplified Information Model (SIM) is a version of the canonical Reference Model and Base Model (RM, BASE components respectively) that contains structurally simpler representations of many class attributes, enabling easier construction of string-oriented serialisations such as JSON, compared to the full canonical structures. The SIM is defined as a set of classes named after a sub-set of RM classes, with `S_` prepended; for example, in the SIM, the RM class `ELEMENT` becomes `S_ELEMENT`. 

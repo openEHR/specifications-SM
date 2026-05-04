@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Query Service
 
 == Overview
@@ -6,7 +8,7 @@ The `platform.interface.query` package shown below defines service interface to 
 
 [.text-center]
 .`sm.platform.interface.query` package
-image::{uml_diagrams_uri}/SM-platform.interface.query.svg[id=platform_interface_query, align="center"]
+image::ROOT:uml/SM-platform.interface.query.svg[id=platform_interface_query, align="center"]
 
 The model of querying here is based on the notion of being able to execute either queries previously stored in the `DEFINITION` service, or else ad hoc queries. For stored queries, no assumption is made as to whether the query language is AQL (the openEHR default) or something else, only that there are stored queries that can be executed in a standard way.
 
@@ -24,14 +26,14 @@ For example: `org.example.departmentx.test::diabetes-patient-overview/1.0.2`. Th
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/i_query_service.adoc[]
+include::ROOT:partial$classes/i_query_service.adoc[]
 
-include::{uml_export_dir}/classes/stored_query_execute_spec.adoc[]
+include::ROOT:partial$classes/stored_query_execute_spec.adoc[]
 
-include::{uml_export_dir}/classes/adhoc_query_execute_spec.adoc[]
+include::ROOT:partial$classes/adhoc_query_execute_spec.adoc[]
 
-include::{uml_export_dir}/classes/result_set.adoc[]
+include::ROOT:partial$classes/result_set.adoc[]
 
-include::{uml_export_dir}/classes/result_set_column.adoc[]
+include::ROOT:partial$classes/result_set_column.adoc[]
 
-include::{uml_export_dir}/classes/result_set_row.adoc[]
+include::ROOT:partial$classes/result_set_row.adoc[]

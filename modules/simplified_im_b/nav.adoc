@@ -1,0 +1,9 @@
+* xref:index.adoc[openEHR Simplified Information Model 'B']
+** xref:overview.adoc[Overview]
+** xref:sim_base.adoc[Sim Base]
+** xref:sim_data_types.adoc[SIM-B Data types Package]
+** xref:sim_structures.adoc[SIM-B Structures]
+** xref:app_context.adoc[App Context]
+** xref:transformation_rules.adoc[Transformation Rules]
+** xref:appendix.adoc[Appendix]
+

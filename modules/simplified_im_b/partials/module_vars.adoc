@@ -1,5 +1,10 @@
+include::ROOT:partial$component_vars.adoc[]
+
 :spec_title: openEHR Simplified Information Model 'B'
 :copyright_year: 2019
 :spec_status: DEVELOPMENT
 :keywords: SIM-B, information model, openEHR
 :description: openEHR Simplified Information Model 'B'
+
+:latest_issue: 0.7.0
+:latest_issue_date: 17 Jul 2019

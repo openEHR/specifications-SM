@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = EHR Service
 
 == Overview
@@ -6,24 +8,24 @@ The `platform.interface.ehr` package shown below defines service interface to th
 
 [.text-center]
 .`sm.platform.interface.ehr` package
-image::{uml_diagrams_uri}/SM-platform.interface.ehr.svg[id=sm_platform_interface_ehr, align="center"]
+image::ROOT:uml/SM-platform.interface.ehr.svg[id=sm_platform_interface_ehr, align="center"]
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/i_ehr_service.adoc[]
+include::ROOT:partial$classes/i_ehr_service.adoc[]
 
-include::{uml_export_dir}/classes/i_ehr.adoc[]
+include::ROOT:partial$classes/i_ehr.adoc[]
 
-include::{uml_export_dir}/classes/i_ehr_status.adoc[]
+include::ROOT:partial$classes/i_ehr_status.adoc[]
 
-include::{uml_export_dir}/classes/i_ehr_directory.adoc[]
+include::ROOT:partial$classes/i_ehr_directory.adoc[]
 
-include::{uml_export_dir}/classes/i_ehr_composition.adoc[]
+include::ROOT:partial$classes/i_ehr_composition.adoc[]
 
-include::{uml_export_dir}/classes/i_ehr_contribution.adoc[]
+include::ROOT:partial$classes/i_ehr_contribution.adoc[]
 
-include::{uml_export_dir}/classes/ehr_summary.adoc[]
+include::ROOT:partial$classes/ehr_summary.adoc[]
 
-include::{uml_export_dir}/classes/uv_folder.adoc[]
+include::ROOT:partial$classes/uv_folder.adoc[]
 
-include::{uml_export_dir}/classes/uv_composition.adoc[]
+include::ROOT:partial$classes/uv_composition.adoc[]

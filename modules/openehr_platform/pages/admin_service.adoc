@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Admin Service
 
 == Overview
@@ -6,16 +8,16 @@ The `platform.interface.admin` package shown below defines service interface to 
 
 [.text-center]
 .`sm.platform.interface.admin` package
-image::{uml_diagrams_uri}/SM-platform.interface.admin.svg[id=platform_interface_admin, align="center"]
+image::ROOT:uml/SM-platform.interface.admin.svg[id=platform_interface_admin, align="center"]
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/i_admin_service.adoc[]
+include::ROOT:partial$classes/i_admin_service.adoc[]
 
-include::{uml_export_dir}/classes/i_admin_archive.adoc[]
+include::ROOT:partial$classes/i_admin_archive.adoc[]
 
-include::{uml_export_dir}/classes/i_admin_dump_load.adoc[]
+include::ROOT:partial$classes/i_admin_dump_load.adoc[]
 
-include::{uml_export_dir}/classes/dump_load_fail_report.adoc[]
+include::ROOT:partial$classes/dump_load_fail_report.adoc[]
 
-include::{uml_export_dir}/classes/export_spec.adoc[]
+include::ROOT:partial$classes/export_spec.adoc[]

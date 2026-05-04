@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 //
 // ============================================ Asciidoc HEADER =============================================
 //
@@ -7,7 +9,16 @@
 //
 
 
-= {spec_title}
+= {spec_title} [.spec-status.spec-status-development]#{spec_status}#
+
+Serialisation formats for openEHR data in REST API contexts. Specifies JSON and XML conventions for encoding RM instances in request and response payloads, aligned with the openEHR REST API specifications. The specification covers canonical JSON and XML as well as simplified variants, with transformation rules between them and the in-memory RM object graph. Implementers building REST API clients or servers use this specification together with the ITS-JSON and ITS-XML schemas to ensure interoperable payload encoding.
+
+== Purpose
+
+This document describes the Serial data formats, a set of serialisations for {openehr_rm}[openEHR RM^] data, intended to be used to generate simplified Data Templates.
+
+
+
 
 
 //
@@ -18,43 +29,12 @@
 // --------------------------------------------- Preface -----------------------------------------------
 //
 
-== Acknowledgements
+== Feedback
 
-=== Authors
+Feedback may be provided on the {openehr_technical_list}[technical mailing list^].
 
-* Pieter Bos, Software Engineer, Nedap, Netherlands
-* Diego Boscá, IBIME, Technical University Valencia, VeraTech for Health, Spain
-* Borut Fabjan, Program Manager, Better, Slovenia
-* Sebastian Iancu, Architect, Code24, Netherlands
-* Bostjan Lah, CTO, Better, Slovenia
-* Ian McNicoll MD, MSc, FreshEhr, UK
-* Matija Polajnar, Architect, Better, Slovenia
+Issues may be raised on the {component_prs}[specifications Problem Report tracker^].
 
-=== Original IP
-
-A significant part of the content of this specification was adapted from the Better (Marand) 'Web Templates' specification, kindly provided by Marand d.o.o. (Slovenia) and the EtherCIS JSON flat format description.
-
-=== Trademarks
-
-* 'openEHR' is a registered trademark of the openEHR Foundation
-
-//
-// --------------------------------------------- TOC -----------------------------------------------
-//
-//toc::[left]
-
-//
-// --------------------------------------------- CHAPTERS -----------------------------------------------
-//
+To see changes made due to previously reported issues, see the {component_history}[{component} component Change Request tracker^].
 
 
-
-//
-// --------------------------------------------- REFERENCES -----------------------------------------------
-//
-
-
-// :sectnums!:
-//== References
-//
-//bibliography::[]

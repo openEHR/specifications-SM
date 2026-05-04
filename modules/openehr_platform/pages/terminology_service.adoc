@@ -1,3 +1,5 @@
+include::partial$module_vars.adoc[]
+
 = Terminology Service
 
 == Overview
@@ -6,15 +8,15 @@ The `platform.interface.terminology` package shown below defines service interfa
 
 [.text-center]
 .`sm.platform.interface.terminology` package
-image::{uml_diagrams_uri}/SM-platform.interface.terminology.svg[id=platform_interface_terminology, align="center"]
+image::ROOT:uml/SM-platform.interface.terminology.svg[id=platform_interface_terminology, align="center"]
 
 == Class Definitions
 
-include::{uml_export_dir}/classes/i_terminology_service.adoc[]
+include::ROOT:partial$classes/i_terminology_service.adoc[]
 
-include::{uml_export_dir}/classes/terminology_description.adoc[]
-include::{uml_export_dir}/classes/terminology_extract.adoc[]
-include::{uml_export_dir}/classes/terminology_relation.adoc[]
-include::{uml_export_dir}/classes/term_relationship.adoc[]
-include::{uml_export_dir}/classes/term_code.adoc[]
-include::{uml_export_dir}/classes/defined_term.adoc[]
+include::ROOT:partial$classes/terminology_description.adoc[]
+include::ROOT:partial$classes/terminology_extract.adoc[]
+include::ROOT:partial$classes/terminology_relation.adoc[]
+include::ROOT:partial$classes/term_relationship.adoc[]
+include::ROOT:partial$classes/term_code.adoc[]
+include::ROOT:partial$classes/defined_term.adoc[]
